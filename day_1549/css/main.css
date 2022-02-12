@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  background: #f1f4ff;
+  font-family: "Poppins", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.main {
+  background: #fff;
+  width: 29.75em;
+  height: 39.6875em;
+  border-radius: 2.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: 10px;
+}
+
+.picture {
+  width: 3.625em;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.circle-picture {
+  border-radius: 50%;
+  border: 1px solid #a6add2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 7.875em;
+  height: 7.875em;
+  position: relative;
+  cursor: pointer;
+  margin: 0 auto;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.price-area {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  color: #1b255a;
+  width: 5.9em;
+  height: 6.3125rem;
+  margin: 0 auto;
+}
+
+.price-tag {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.currency {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.sub-type {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.download-area {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.download-area .button-group {
+  width: 18em;
+  height: 5.9375em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  padding: 0;
+}
+
+.download-area .button-group button {
+  margin: 0 auto;
+  border: 2px solid #d2d9f3;
+  border-radius: 1.25rem;
+  width: 4.125rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  padding: 0.625rem;
+  cursor: pointer;
+}
+
+.download-area .button-group button:hover {
+  background: #1b255a;
+  color: white;
+}
+
+.download-area p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1b255a;
+  text-align: center;
+}
+
+.subscribe-area {
+  width: 21.0625em;
+  height: 4.6875em;
+  margin: 0 auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.subscribe-area .subscribe-button {
+  width: 100%;
+  height: 100%;
+  background: #1b255a;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe-area .subscribe-button:hover {
+  background: white;
+  color: #1b255a;
+  border: 2px solid #1b255a;
+}
+/*# sourceMappingURL=main.css.map */
